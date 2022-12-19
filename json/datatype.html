@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>json data type</h2>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+
+<script>
+  //json string
+  const myObj = {"name":"John"};
+  document.getElementById("demo").innerHTML = myObj.name;
+  //json number
+  const myObj1 = {"age":30};
+  document.getElementById("demo1").innerHTML = myObj1.age;
+  //json object
+  const myObj2 = {"name":"John", "age":30,"city":"ahmedabad"};
+  document.getElementById("demo2").innerHTML = myObj2.city;
+  //boolean
+  const boo = {"sale":"true"};
+  document.getElementById("demo3").innerHTML = boo.sale;
+  //null
+  const b1 = {"middlename":null};
+  document.getElementById("demo4").innerHTML = b1.middlename;
+
+</script>
+
+</body>
+</html>

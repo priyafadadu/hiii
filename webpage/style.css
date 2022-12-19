@@ -1,0 +1,327 @@
+
+
+/* navbar */
+
+.navbar-nav{
+    margin-right: 0 !important;
+    padding-left: 10px;
+}
+
+.navbar{
+    background-color:chocolate;
+    color: white !important;
+}
+
+.nav-item a{
+    color: white !important;
+}
+
+.nav-item{
+    padding-left: 60px;
+}
+
+.navbar-brand{
+    color: white !important;
+    padding-left: 100px;
+}
+{
+    box-sizing: border-box;
+}
+
+
+form.example input[type=text] {
+    padding:10px;
+
+    font-size: 17px;
+    border: 1px;
+    float: left;
+    width: 80%;
+    background-color:orange;
+
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    height: 45px;
+    padding: 5px;
+    background: #2196F3;
+    align:center;
+    color: white;
+    font-size: 17px;
+    border-left: none;
+    cursor: pointer;
+}
+
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* banner */
+
+#banner-container{
+    background-color:orange;
+    color: white !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+#banner-row img{
+    max-width: 90%;
+    height: 90%;
+    display: block;
+    padding-left: 40px;
+}
+
+#banner-row h1, p{
+    padding-left: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#banner-row a{
+
+    color:white;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#banner-col{
+    padding-left: 20px;
+}
+#banners-container{
+    background-color:white;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+#banners-row img{
+    max-width: 160px;
+    height: 150px;
+    display: block;
+    padding-left: 40px;
+}
+
+#banners-row h2, p{
+    padding-left: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#banners-row a{
+
+    color:white;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#banners-col{
+    padding-left: 20px;
+}
+/* service */
+#service{
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: orange;
+    color: white;
+}
+
+#service h1 {
+    padding-bottom: 10px;
+
+}
+service1{
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: white;
+
+}
+.fa-social{
+    padding: 20px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    align:center;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+    background:orange;
+    color: white;
+}
+
+.fa-facebook {
+    background:orange;
+    color: white;
+}
+.fa-twitter
+{
+    background:orange;
+    color: white;
+}
+.fa-whatsapp {
+    background:orange;
+    color: white;
+}
+#counter {
+
+    color: #fff;
+
+    text-align: center;
+    padding: 30px 0;
+}
+#counter .count {
+    padding: 30px;
+
+
+    text-align: center;
+}
+.count h4 {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0;
+}
+#counter .count .fa {
+    font-size: 40px;
+
+    color: #fff;
+}
+#counter .number {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#desc{
+
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color:white;
+
+}
+
+#desc h1 {
+    padding-bottom: 5px;
+
+}
+desc h4 {
+    padding-bottom: 5px;
+
+}
+desc h6 {
+    padding-bottom: 10px;
+
+}
+
+/* footer */
+#footer {
+  background-color: black;
+    color: white;
+
+}
+
+.mb-3{
+
+    padding-top: 10px;
+}
+form.examples input[type=text] {
+    padding:10px;
+
+    font-size: 17px;
+    border: 1px;
+    float: left;
+    width: 80%;
+    background-color:orange;
+
+}
+
+form.examples button1
+{
+    float: left;
+    width: 20%;
+    height: 45px;
+    padding: 5px;
+    background: #2196F3;
+    align:center;
+
+    font-size: 17px;
+    border-left: none;
+    cursor: pointer;
+}
+
+
+form.examples::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.fa
+{
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+
+}
+.fa-instagram {
+    background:white;
+    color: black;
+}
+
+.fa-facebook {
+    background:white;
+    color: black;
+}
+.fa-twitter
+{
+    background:white;
+    color: black;
+}
+.fa-whatsapp {
+    background:white;
+    color: black;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+    .right {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+        width: 100%;
+    }
+}
+
+.card
+{
+    box-shadow: 0 0 40px 0 rgba(100, 100, 100, 0.26);
+}

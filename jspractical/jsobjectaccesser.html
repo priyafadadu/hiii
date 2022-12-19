@@ -1,0 +1,42 @@
+
+
+<html>
+<body>
+
+<h2>JavaScript Getters and Setters</h2>
+<p>javascript example</p>
+
+<p id="abc"></p>
+
+<script>
+
+ /* const person = {
+    firstName: "priya",//
+    lastName: "fadadu",
+    language: "en",
+    get lang() {
+      return this.firstName + " " +this.language;
+      //return this.language;
+    }
+  };
+
+  document.getElementById("abc").innerHTML= person.lang;*/
+ const person = {
+   firstName: "priya",
+   lastName: "fadadu",
+   language: "NO",
+   set lang(value) {
+     this.language = value;
+   }
+ };
+
+ // Set a property using set:
+ person.lang = "en";
+
+ // Display data from the object:
+ document.getElementById("demo").innerHTML = person.language;
+</script>
+
+</body>
+</html>
+

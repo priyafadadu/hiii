@@ -1,0 +1,36 @@
+<html>
+<head>
+  <h2>Demo JavaScript in Body</h2>
+
+  <p id="demo">A Paragraph.</p>
+
+  <button type="button" onclick="myFunction()">Try it</button>
+  <p>(myFunction is stored in "myScript.js")</p>
+
+  <script src="myScript.js"></script>
+  <p id="demo1">A Paragraph.</p>
+
+  <button type="button" onclick="myFunctions()">Try it!</button>
+  <script src="https://www.w3schools.com/js/myScript.js"></script>
+
+</head>
+<body>
+
+<script>
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+  }
+
+</script>
+<script>
+  function myFunctions() {
+    document.getElementById("demo1").innerHTML = "Paragraph changed.";
+  }
+
+</script>
+
+</body>
+</html>
+
+
+

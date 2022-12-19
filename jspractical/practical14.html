@@ -1,0 +1,32 @@
+<html>
+<body>
+
+<h2>JavaScript date format</h2>
+
+<p id="demo"></p>
+<p id="ab"></p>
+<p id="bc"></p>
+
+<script>
+  const d = new Date("2022-09-28");
+  document.getElementById("demo").innerHTML = d;
+  /*const d1 = new Date("2022-09");
+  document.getElementById("ab").innerHTML = d1;
+  const d2 = new Date("2022-09");
+  document.getElementById("bc").innerHTML = d2;*/
+
+  //short date format
+
+ // const d = new Date("2022-09-29");
+ // document.getElementById("demo").innerHTML = d;
+  const d1= new Date("Mar 25 2015");
+  document.getElementById("ab").innerHTML = d1;
+
+  //parsing date format
+  let msec = Date.parse("March 21, 2012");
+  const d2 = new Date(msec);
+  document.getElementById("bc").innerHTML = d2;
+</script>
+
+</body>
+</html>

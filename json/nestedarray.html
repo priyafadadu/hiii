@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nested array</title>
+</head>
+<body>
+<h3>nested array</h3>
+<p id="demo"></p>
+<script>
+  var obj, i, j, x=" ";
+  obj = {
+    "name":"peter",
+     "age":25,
+    "cars":[
+      {
+        "name":" ford",
+        "model": ["fiesta", "focus", "mustang"]
+      },
+      {
+        "name":" BMW",
+        "model": ["320", "x3", "x5"]
+      },
+      {
+        "name":" fiat",
+        "model": ["500"," panda"]
+      },
+      {
+        "name":" swift",
+        "model": ["dzire"," panda"]
+      },
+      {
+        "name":" ALTO",
+        "model": ["K10"," 800"]
+      },
+    ]
+
+  }
+for(i in obj.cars)
+{
+  x+="<h4>"+ obj.cars[i].name+ "</h4>";
+  for(j in obj.cars[i].model){
+    x+= obj.cars[i].model[j]+ "<br>"
+  }
+}
+document.getElementById("demo").innerHTML= x;
+
+</script>
+</body>
+</html>

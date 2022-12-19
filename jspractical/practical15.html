@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<p id="ab"></p>
+<p id="bc"></p>
+<script>
+    //array tostring() method
+    const name = ["priya", "neel", "shreya", "savan"];
+    document.getElementById("ab").innerHTML = name.toString();
+
+    //array join() method
+    const name1 = ["priya", "neel", "shreya", "savan"];
+    document.getElementById("bc").innerHTML = name1.join();
+
+</script>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+
+<script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("demo1").innerHTML = fruits;
+    fruits.pop();
+
+    document.getElementById("demo2").innerHTML = fruits;
+
+  //push method
+
+
+    const fruit1 = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("demo3").innerHTML = fruit1;
+
+    fruit1.push("kiwi");
+   document.getElementById("demo4").innerHTML = fruit1;
+
+</script>
+<p id="pn"></p>
+<p id="pn1"></p>
+<script>
+    const fruit2 = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("pn").innerHTML = fruit2;
+
+    fruit2.shift();
+    document.getElementById("pn1").innerHTML = fruit2;
+
+</script>
+
+<p id="pn2"></p>
+<p id="pn3"></p>
+<script>
+    const fru = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("pn2").innerHTML = fru;
+
+    fru.unshift("lemon");
+    document.getElementById("pn3").innerHTML = fru;
+
+</script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <p id="demo"></p>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("fname");
+      x.value = x.value.toUpperCase();
+    }
+    function preferedBrowser() {
+      prefer = document.forms[0].browsers.value;
+      alert("You prefer language " + prefer);
+    }
+    function myFunction1(x) {
+      x.style.background = "yellow";
+    }
+    function selecttext() {
+      document.getElementById("demo").innerHTML = "You selected some text";
+    }
+    function confirmInput() {
+      fnm = document.forms[0].fnm.value;
+      alert("Hello " + fnm + "! You will now be redirected to www.w3Schools.com");
+    }
+    function message() {
+      alert("This alert box was triggered by the onreset event handler");
+    }
+    function downkey()
+    {
+      alert("you are press a input key");
+    }
+    function presskey()
+    {
+      alert("you are press a keyboard key");
+    }
+    function upkey() {
+      var y = document.getElementById("priya");
+      y.value = y.value.toUpperCase();
+    }
+
+  </script>
+</head>
+<body>
+<form onsubmit="confirmInput()" action="https://www.w3schools.com/">
+  Enter your name: <input id="fnm" type="text" size="20">
+  <br>
+  <input type="submit">
+  <br>
+
+  Enter your name: <input type="text" id="fname"  onchange="myFunction()">
+
+  <br>
+  Enter your name: <input type="text" onfocus="myFunction1(this)">
+<br>
+
+  Choose which browser you prefer:
+  <select id="browsers" onchange="preferedBrowser()">
+    <option value="php">php</option>
+    <option value="java">java</option>
+    <option value="android">android</option>
+  </select>
+<br>
+  Some text: <input type="text" value="hiiiii!" onselect="selecttext()">
+
+</form>
+<form onreset="message()">
+Enter your name: <input type="text" size="20">
+  <br>
+<input type="reset">
+  <input type="text" onkeydown="downkey()">
+  <br>
+  <input type="text" onkeydown="presskey()">
+  <br>
+  Enter your name: <input type="text" id="priya"  onkeyup= "upkey()">
+</form>
+</body>
+</html>
+
+
+
